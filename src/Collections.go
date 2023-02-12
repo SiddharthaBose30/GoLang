@@ -39,8 +39,77 @@ func main() {
 	// b[1] = 2
 	// fmt.Println(a, b)
 
-	a := []int{21312, 312, 31, 23, 123, 12, 3, 123}
-	fmt.Println(a)
-	fmt.Println(len(a))
+	// a := []int{21312, 312, 31, 23, 123, 12, 3, 123}
+	// // b := a
+	// // b[1] = 222
+	// // fmt.Println(a)
+	// // fmt.Println(len(a))
+	// // fmt.Println(len(b))
+	// // fmt.Println(b)
+	// fmt.Println(cap(a))
+	// b := a[3:]
+	// c := a[:6]
+	// d := a[3:6]
+	// e := a[:]
+	// a[5] = 1
+	// fmt.Println(b)
+	// fmt.Println(c)
+	// fmt.Println(d)
+	// fmt.Println(e)
+	// fmt.Println(cap(e))
 
+	// a := make([]int, 3, 100)
+	// fmt.Println(cap(a))
+	// fmt.Println(len(a))
+	// a = append(a, 2, 1, 1)
+	// fmt.Println(cap(a))
+	// fmt.Println(len(a))
+	// fmt.Print(a)
+
+	// a := []int{}
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+	// a = append(a, 1)
+	// fmt.Println(a)
+	// fmt.Println(len(a))
+	// fmt.Println(cap(a))
+
+	a := []int{1, 2, 3, 4, 5}
+	fmt.Println(a)
+	b := append(a[:2], a[3:]...)
+	fmt.Println(a)
+	fmt.Println(b)
 }
