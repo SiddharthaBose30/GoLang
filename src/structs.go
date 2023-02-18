@@ -27,21 +27,21 @@ type C struct {
 
 func main() {
 
-	// s := Doctor{
-	// 	Name:  10,
-	// 	Actor: "Messi",
-	// 	des:   []string{"YES"},
-	// }
-	// fmt.Println(s)
+	s := Doctor{
+		Name:  10,
+		Actor: "Messi",
+		des:   []string{"YES"},
+	}
+	fmt.Println(s)
 
-	// a := struct{ name string }{name: "Messi"}
-	// b := a
-	// b.name = "GOAT"
-	// c := &a
-	// c.name = "PP"
-	// fmt.Println(b)
-	// fmt.Println(a)
-	// fmt.Println(c)
+	a := struct{ name string }{name: "Messi"}
+	b := a
+	b.name = "GOAT"
+	c := &a
+	c.name = "PP"
+	fmt.Println(b)
+	fmt.Println(a)
+	fmt.Println(c)
 	d := B{}
 	d.Name = "Messi"
 	d.Age = 13
